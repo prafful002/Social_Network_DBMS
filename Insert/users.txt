@@ -1,0 +1,20 @@
+insert into users values('us111','www.new.com','Chennai','karnataka','I"m hawt ','chan','H street','Hyper','Goku','M','goku@gmail.com','02-04-1995');
+
+insert into users values('us112','www.happy','Chennai','karnataka','I"m cool ','chan','H street','Awesome','Gohan','M','gohan@gmail.com','02-04-1995');
+
+insert into users values('us113','www.bye','Pune','karnataka','I"m meh ','chan','H street','Cool','Goten','M','goku@gmail.com','02-04-1995');
+
+insert into users values('us114','www.good','Bangalore','karnataka','whatever ','chan','H street','Kewl','goma','M','goku@gmail.com','02-04-1995');
+
+insert into users values('us115','www.fine','Jammu','J&K','anime ','chan','H street','Super','duma','M','goku@gmail.com','02-04-1995');
+
+insert into users values('us116','www.lol.com','Bangalore','karnataka','I"m hawt ','chan','H street','Super','Haku','M','goku@gmail.com','02-04-1995');
+
+insert into users values('us117','www.furis.com','Bangalore','karnataka','I"m hawt ','chan','H street','Super','Rama','M','goku@gmail.com','02-04-1995');
+
+insert into users values('us118','www.fb.com','Bangalore','karnataka','I"m hawt ','chan','H street','Super','Bhama','M','goku@gmail.com','02-04-1995');
+
+insert into users values('us119','www.laugh.com','Bangalore','karnataka','I"m hawt ','chan','H street','Super','Vegeta','M','goku@gmail.com','02-04-1995');
+
+insert into users values('us120','www.tv.com','Bangalore','karnataka','I"m hawt ','chan','H street','Super','CHi-CHi','M','goku@gmail.com','02-04-1995');
+

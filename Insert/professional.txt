@@ -1,0 +1,13 @@
+
+insert into professional_school values('us123','NPS','1995');
+insert into professional_school values('us120','NPS','1995');
+insert into professional_school values('us119','NPS','1995');
+insert into professional_school values('us118','NPS','1995');
+insert into professional_school values('us117','NPS','1995');
+insert into professional_school values('us116','NPS','1995');
+insert into professional_school values('us115','DPS','1995');
+insert into professional_school values('us114','DPS','1995');
+insert into professional_school values('us113','DPS','1995');
+insert into professional_school values('us112','Bishop Cottons','1995');
+insert into professional_school values('us111','Bishop Cottons','1995');
+insert into professional_school values('us456','Bishop Cottons','1995');

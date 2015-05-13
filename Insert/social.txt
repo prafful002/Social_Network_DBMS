@@ -1,0 +1,304 @@
+insert into social values('us123','www.myUrl.com','Im good boy','Not single Double');
+
+insert into social values('us456','www.mahUrl.com','Im good boy','Not single Double');
+
+insert into social values('us111','www.Url11.com','I"m good boy','Not single Double');
+
+insert into social values('us112','www.Url112.com','I"m good girl','It's complicated');
+
+insert into social values('us113','www.Url113.com','I"m bad boy','Trippale');
+
+insert into social values('us114','www.Url114.com','I"m bad girl','Unknown');
+
+insert into social values('us115','www.Url15.com','I"m good boy','single');
+
+insert into social values('us116','www.Url116.com','I"m good boy','Mah lyf Mah rulez');
+
+insert into social values('us117','www.Url117.com','I"m good boy','In a relationship');
+
+insert into social values('us118','www.Url118.com','I"m good boy','Married');
+
+insert into social values('us119','www.url119.com','I"m good boy','Divorced');
+
+insert into social values('us120','www.url120.com','I"m good boy','Divorced');
+
+
+
+
+insert into soc_sports values('us123','www.myUrlc.com','Cricket');
+
+insert into soc_sports values('us123','www.myUrlf.com','Football');
+
+insert into soc_sports values('us123','www.myUrlt.com','Tennis');
+
+insert into soc_sports values('us111','www.myUrlc.com','Cricket');
+
+insert into soc_sports values('us111','www.myUrlf.com','Football');
+
+insert into soc_sports values('us112','www.myUrlf.com','Football');
+
+insert into soc_sports values('us112','www.myUrlb.com','Baseball');
+
+insert into soc_sports values('us112','www.myUrlcar.com','Carrom');
+
+insert into soc_sports values('us113','www.myUrlf.com','Football');
+
+insert into soc_sports values('us113','www.myUrlh.com','handball');
+
+insert into soc_sports values('us114','www.myUrlf.com','Football');
+
+insert into soc_sports values('us115','www.myUrlf.com','Football');
+
+insert into soc_sports values('us116','www.myUrlc.com','Cricket');
+
+insert into soc_sports values('us116','www.myUrlt.com','Tennis');
+
+insert into soc_sports values('us117','www.myUrlhoc.com','Hockey');
+
+insert into soc_sports values('us117','www.myUrlch.com','Chess');
+
+insert into soc_sports values('us118','www.myUrlf.com','Football');
+
+
+insert into soc_sports values('us118','www.myUrlch.com','Chess');
+
+insert into soc_sports values('us119','www.myUrlcar.com','Carrom');
+
+insert into soc_sports values('us119','www.myUrlch.com','Chess');
+
+insert into soc_sports values('us120','www.myUrlsl.com','Snake and ladder');
+
+insert into soc_sports values('us120','www.myUrlf.com','Football');
+
+
+
+
+
+insert into soc_tv_shows values('us123','www.myUrlc.com','Breaking Bad');
+
+insert into soc_tv_shows values('us123','www.myUrlf.com','Big bang theory');
+
+insert into soc_tv_shows values('us123','www.myUrlt.com','Tennis');
+
+insert into soc_tv_shows values('us111','www.myUrlc.com','Breaking Bad');
+
+insert into soc_tv_shows values('us111','www.myUrlf.com','Big bang theory');
+
+insert into soc_tv_shows values('us112','www.myUrlf.com','Big bang theory');
+
+insert into soc_tv_shows values('us112','www.myUrlb.com','Baseball');
+
+insert into soc_tv_shows values('us112','www.myUrlcar.com','Carrom');
+
+insert into soc_tv_shows values('us113','www.myUrlf.com','Big bang theory');
+
+insert into soc_tv_shows values('us113','www.myUrlh.com','handball');
+
+insert into soc_tv_shows values('us114','www.myUrlf.com','Big bang theory');
+
+insert into soc_tv_shows values('us115','www.myUrlf.com','Big bang theory');
+
+insert into soc_tv_shows values('us116','www.myUrlc.com','Breaking Bad');
+
+insert into soc_tv_shows values('us116','www.myUrlt.com','Tennis');
+
+insert into soc_tv_shows values('us117','www.myUrlhoc.com','Hockey');
+
+insert into soc_tv_shows values('us117','www.myUrlch.com','Chess');
+
+insert into soc_tv_shows values('us118','www.myUrlf.com','Big bang theory');
+
+
+insert into soc_tv_shows values('us118','www.myUrlch.com','Chess');
+
+insert into soc_tv_shows values('us119','www.myUrlcar.com','Carrom');
+
+insert into soc_tv_shows values('us119','www.myUrlch.com','Chess');
+
+insert into soc_tv_shows values('us120','www.myUrlsl.com','Snake and ladder');
+
+insert into soc_tv_shows values('us120','www.myUrlf.com','Big bang theory');
+
+
+insert into soc_music values('us123','www.myUrlc.com','Metal');
+
+insert into soc_music values('us123','www.myUrlf.com','Pop');
+
+insert into soc_music values('us123','www.myUrlt.com','Sad songs');
+
+insert into soc_music values('us111','www.myUrlc.com','EDM');
+
+insert into soc_music values('us111','www.myUrlf.com','Metal');
+
+insert into soc_music values('us112','www.myUrlf.com','Metal');
+
+insert into soc_music values('us112','www.myUrlb.com','Bhangra');
+
+insert into soc_music values('us112','www.myUrlcar.com','Pop');
+
+insert into soc_music values('us113','www.myUrlf.com','Metal');
+
+insert into soc_music values('us113','www.myUrlh.com','Metal');
+
+insert into soc_music values('us114','www.myUrlf.com','Metal');
+
+insert into soc_music values('us115','www.myUrlf.com','Metal');
+
+insert into soc_music values('us116','www.myUrlc.com','EDM');
+
+insert into soc_music values('us116','www.myUrlt.com','jeirfij');
+
+insert into soc_music values('us117','www.myUrlhoc.com','Bollywood');
+
+insert into soc_music values('us117','www.myUrlch.com','Superbass');
+
+insert into soc_music values('us118','www.myUrlf.com','Metal');
+
+
+insert into soc_music values('us118','www.myUrlch.com','Superbass');
+
+insert into soc_music values('us119','www.myUrlcar.com','Pop');
+
+insert into soc_music values('us119','www.myUrlch.com','Jazz');
+
+insert into soc_music values('us120','www.myUrlsl.com','Jazz');
+
+insert into soc_music values('us120','www.myUrlf.com','Metal');
+
+insert into soc_movies values('us123','www.myUrlc.com','Kai Po Che');
+
+insert into soc_movies values('us123','www.myUrlf.com','Superman');
+
+insert into soc_movies values('us123','www.myUrlt.com','Sad songs');
+
+insert into soc_movies values('us111','www.myUrlc.com','Mask');
+
+insert into soc_movies values('us111','www.myUrlf.com','Kai Po Che');
+
+insert into soc_movies values('us112','www.myUrlf.com','Kai Po Che');
+
+insert into soc_movies values('us112','www.myUrlb.com','Batman');
+
+insert into soc_movies values('us112','www.myUrlcar.com','Superman');
+
+insert into soc_movies values('us113','www.myUrlf.com','Kai Po Che');
+
+insert into soc_movies values('us113','www.myUrlh.com','Kai Po Che');
+
+insert into soc_movies values('us114','www.myUrlf.com','Kai Po Che');
+
+insert into soc_movies values('us115','www.myUrlf.com','Kai Po Che');
+
+insert into soc_movies values('us116','www.myUrlc.com','Mask');
+
+insert into soc_movies values('us116','www.myUrlt.com','jeirfij');
+
+insert into soc_movies values('us117','www.myUrlhoc.com','Bollywood');
+
+insert into soc_movies values('us117','www.myUrlch.com','Superbass');
+
+insert into soc_movies values('us118','www.myUrlf.com','Kai Po Che');
+
+
+insert into soc_movies values('us118','www.myUrlch.com','Superbass');
+
+insert into soc_movies values('us119','www.myUrlcar.com','Superman');
+
+insert into soc_movies values('us119','www.myUrlch.com','Justice league');
+
+insert into soc_movies values('us120','www.myUrlsl.com','Justice league');
+
+insert into soc_movies values('us120','www.myUrlf.com','Kai Po Che');
+
+insert into soc_likes values('us123','www.myUrlc.com','Harry Potter');
+
+insert into soc_likes values('us123','www.myUrlf.com','PESOS');
+
+insert into soc_likes values('us123','www.myUrlt.com','9GAG');
+
+insert into soc_likes values('us111','www.myUrlc.com','TrollCricker');
+
+insert into soc_likes values('us111','www.myUrlf.com','Harry Potter');
+
+insert into soc_likes values('us112','www.myUrlf.com','Harry Potter');
+
+insert into soc_likes values('us112','www.myUrlb.com','9GAG');
+
+insert into soc_likes values('us112','www.myUrlcar.com','PESOS');
+
+insert into soc_likes values('us113','www.myUrlf.com','Harry Potter');
+
+insert into soc_likes values('us113','www.myUrlh.com','Harry Potter');
+
+insert into soc_likes values('us114','www.myUrlf.com','Harry Potter');
+
+insert into soc_likes values('us115','www.myUrlf.com','Harry Potter');
+
+insert into soc_likes values('us116','www.myUrlc.com','Mask');
+
+insert into soc_likes values('us116','www.myUrlt.com','jeirfij');
+
+insert into soc_likes values('us117','www.myUrlhoc.com','Bollywood');
+
+insert into soc_likes values('us117','www.myUrlch.com','TrollCricker');
+
+insert into soc_likes values('us118','www.myUrlf.com','Harry Potter');
+
+
+insert into soc_likes values('us118','www.myUrlch.com','TrollCricker');
+
+insert into soc_likes values('us119','www.myUrlcar.com','PESOS');
+
+insert into soc_likes values('us119','www.myUrlch.com','TrollCricker');
+
+insert into soc_likes values('us120','www.myUrlsl.com','TrollCricker');
+
+insert into soc_likes values('us120','www.myUrlf.com','Harry Potter');
+
+insert into soc_books values('us123','www.myUrlc.com','Harry Potter');
+
+insert into soc_books values('us123','www.myUrlf.com','Algoriths');
+
+insert into soc_books values('us123','www.myUrlt.com','FAFL');
+
+insert into soc_books values('us111','www.myUrlc.com','Heidi');
+
+insert into soc_books values('us111','www.myUrlf.com','Harry Potter');
+
+insert into soc_books values('us112','www.myUrlf.com','Harry Potter');
+
+insert into soc_books values('us112','www.myUrlb.com','FAFL');
+
+insert into soc_books values('us112','www.myUrlcar.com','Algoriths');
+
+insert into soc_books values('us113','www.myUrlf.com','Harry Potter');
+
+insert into soc_books values('us113','www.myUrlh.com','Harry Potter');
+
+insert into soc_books values('us114','www.myUrlf.com','Harry Potter');
+
+insert into soc_books values('us115','www.myUrlf.com','Harry Potter');
+
+insert into soc_books values('us116','www.myUrlc.com','Mask');
+
+insert into soc_books values('us116','www.myUrlt.com','jeirfij');
+
+insert into soc_books values('us117','www.myUrlhoc.com','Bollywood');
+
+insert into soc_books values('us117','www.myUrlch.com','Heidi');
+
+insert into soc_books values('us118','www.myUrlf.com','Harry Potter');
+
+
+insert into soc_books values('us118','www.myUrlch.com','Heidi');
+
+insert into soc_books values('us119','www.myUrlcar.com','Algoriths');
+
+insert into soc_books values('us119','www.myUrlch.com','Heidi');
+
+insert into soc_books values('us120','www.myUrlsl.com','Heidi');
+
+insert into soc_books values('us120','www.myUrlf.com','Harry Potter');
+
+
+

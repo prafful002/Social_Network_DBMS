@@ -1,0 +1,45 @@
+create table users(User_id char(30) primary key, city varchar(30),state varchar(30),country varchar(30),status varchar(30),password varchar(30),address varchar(20),Fname varchar(30),Lname varchar(30),sex char(1),Email varchar(30),DOB varchar(30));
+
+create table administrator (Admin_id char(30) primary key,password varchar(30),name varchar(30));
+
+create table authenticates (Admin_id char(30), name varchar(30),User_id char(30), primary key(Admin_id,User_id), foreign key(Admin_id) references administrator, foreign key(User_id) references users);
+
+
+create table photos(User_id char(30),Pname varchar(30),Photos varchar(30), primary key(User_id,Pname,Photos), foreign key(User_id) references users);
+
+create table social (User_id char(30), URL varchar(20),About_me varchar(20),Relationship_status varchar(30), primary key(User_id,URL), foreign key (User_id) references users );
+
+create table soc_sports(User_id char(30), URL varchar(20),sports varchar(30), primary key(User_id,URL,sports), foreign key(User_id,URL) references social);
+
+create table soc_tv_shows (User_id char(30),URL varchar(20), tv_show varchar(30),primary key(User_id,URL,tv_show), foreign key(User_id,URL) references social);
+
+
+create table soc_books (User_id char(30),URL varchar(20), books varchar(30),primary key(User_id,URL,books), foreign key(User_id,URL) references social);
+
+
+create table soc_movies (User_id char(30),URL varchar(20), movies varchar(30),primary key(User_id,URL,movies), foreign key(User_id,URL) references social);
+
+
+create table soc_likes (User_id char(30),URL varchar(20), likes varchar(30),primary key(User_id,URL,likes), foreign key(User_id,URL) references social);
+
+
+create table soc_music (User_id char(30),URL varchar(20), music varchar(30),primary key(User_id,URL,music), foreign key(User_id,URL) references social);
+
+create table professional (User_id char(30) primary key, foreign key(User_id) references users);
+
+create table professional_degree(User_id char(30), Degree varchar(30), year varchar(30), primary key(User_id,Degree,year), foreign key(User_id) references professional);
+
+create table professional_college(User_id char(30), College varchar(30), year varchar(30), primary key(User_id,College,year), foreign key(User_id) references professional);
+
+create table professional_industry(User_id char(30), Industry varchar(30), year varchar(30), primary key(User_id,Industry,year), foreign key(User_id) references professional);
+
+create table professional_organisation(User_id char(30), Organisation varchar(30), year varchar(30), primary key(User_id,Organisation,year), foreign key(User_id) references professional);
+
+create table professional_school(User_id char(30), School varchar(30), year varchar(30), primary key(User_id,School,year), foreign key(User_id) references professional);
+
+create table friends(User_id char(30), Friend_id char(30), primary key(User_id,Friend_id), foreign key(User_id) references users,foreign key(Friend_id) references users);
+
+create table message(User_id char(30),Friend_id char(30),message varchar(20), primary key(User_id,Friend_id),foreign key (User_id) references users, foreign key(Friend_id) references users);
+
+
+

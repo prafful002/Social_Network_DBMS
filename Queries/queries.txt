@@ -1,0 +1,25 @@
+VIEW FRIENDS LIST OF USERS:
+select Fname from users where User_id in (select friend_id from friends where user_id in(select user_id from users where fname='<name>');
+
+DISPLAY MUTUAL FRIENDS:
+select Fname from users where User_id in (select friend_id from users,friends where Fname='Hyper' and Lname='Goku') intersect select Fname from users where User_id in (select friend_id from users,friends where Fname=’Prafful’);
+
+DISPLAY NUMBER OF FRIENDS OF EACH USER:
+Select count(*) ,Fname from friends,users where users.User_id=friends.friend_id group by Fname,Lname;
+
+DISPLAY THE USERS ATTENDING THE SAME SCHOOL/COLLEGE
+Select Fname from users,prof_school where school = ‘<school name>’ 
+Or
+Select Fname from users,prof_college where school = ‘<school name>’ ;
+
+FRIENDS WHO HAVE LIKED THE SAME PAGE:
+select Fname,Lname from users,soc_likes where likes=’<name of the page liked>’;
+
+
+DISPLAY CHAT HISTORY OF A USER WITH ANOTHER USER:
+select messages from send_message where User_id in (Select User_id from users where users.Fname=’<name>’ and users.Lname=’<name>’) and friend_id in (select User_id from users where Fname=’<name>’ and Lname=’<name>’);
+
+
+Working set
+1.select Fname,Lname from users where user_id in(select friend_id from friends where user_id in(select user_id from users where Fname='Prafful'));
+2.select Fname from users where user_id in(select friend_id from friends where user_id in(select user_id from users where fname='Prafful')) intersect select Fname from users where user_id in(select friend_id from friends where user_id in(select user_id from users where fname='Hyper'));

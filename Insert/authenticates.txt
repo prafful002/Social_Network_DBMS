@@ -1,0 +1,21 @@
+insert into authenticates values('ad123','admin1','us123');
+
+insert into authenticates values('ad124','admin2','us111');
+
+insert into authenticates values('ad123','admin1','us112');
+
+insert into authenticates values('ad123','admin1','us113');
+
+insert into authenticates values('ad124','admin2','us114');
+
+insert into authenticates values('ad125','admin3','us115');
+
+insert into authenticates values('ad126','admin4','us116');
+
+insert into authenticates values('ad126','admin4','us117');
+
+insert into authenticates values('ad127','admin5','us118');
+
+insert into authenticates values('ad127','admin5','us119');
+
+insert into authenticates values('ad127','admin5','us120');

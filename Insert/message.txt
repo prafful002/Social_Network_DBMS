@@ -1,0 +1,13 @@
+insert into message values('us112','us111','Yake boss');
+insert into message values('us115','us120','Sidog piq');
+insert into message values('us120','us115','Pig ogsid');
+insert into message values('us116','us456','There?');
+insert into message values('us113','us123','No Im not');
+insert into message values('us123','us113','Haha please');
+insert into message values('us456','us116','What haha please');
+insert into message values('us123','us120','Hi frankie');
+insert into message values('us120','us123','Bye Frankie');
+insert into message values('us111','us112','Yo Frankie');
+insert into message values('us123','us111','Hello Frankie');
+insert into message values('us111','us123','Yen boss samachara');
+

@@ -1,0 +1,67 @@
+import java.io.FileNotFoundException;
+import java.sql.*;
+import java.util.*;
+
+public class ProjectDBMS
+{
+	public static void main(String args[]) throws SQLException, FileNotFoundException
+	{
+		Connection c =null;
+		/*File file=new File("C:/Users/Rohan/Downloads/message.txt");
+		Scanner scan=new Scanner(file);
+		String f="";
+		while(scan.hasNextLine())
+		{
+			f+=scan.nextLine();
+		}*/
+		String sql;
+		Statement st=null;
+        try
+        {
+        	Class.forName("org.postgresql.Driver");
+            c = DriverManager.getConnection("jdbc:postgresql://localhost:5432/social_network","postgres","madhurima");
+            st = c.createStatement();	
+   		    Scanner scan = new Scanner(System.in);
+            System.out.println("Enter Command: ");
+            sql = scan.nextLine();
+           
+            System.out.println("1.Run Create/Update/Insert Statement.\n2.Run  Query.\n"); 
+            System.out.println("Enter your choice :");
+			int choice;
+			choice = scan.nextInt();
+			if(choice==2)
+			{
+				ResultSet resultSet = st.executeQuery(sql);
+			    ResultSetMetaData rsmd = resultSet.getMetaData();
+			    int columnsNumber = rsmd.getColumnCount();
+	            while (resultSet.next())
+	            {
+	            	for (int i = 1; i <= columnsNumber; i++)
+	            	{
+	            		if (i > 1) System.out.print("  ||  ");
+	            		String columnValue = resultSet.getString(i);
+	            		System.out.print(columnValue + " " );
+	            	}
+	            	System.out.println("");
+	            }
+	            st.close();
+	        }
+			else if (choice ==1)
+			{
+				st.executeUpdate(sql);
+				st.close();
+			}
+			else
+			System.out.println("\nInvalid choice \n");
+			scan.close();
+        }
+        catch (ClassNotFoundException | SQLException e)
+        {
+        	System.err.println(e.getClass().getName()+ ": "+e.getMessage());
+        	System.exit(0);
+        }
+        System.out.println("\n \n ---SUCCESS---");
+        c.close();
+        c=null;
+	}
+}
